@@ -819,7 +819,6 @@ Shader "Hidden/ltspass_lava"
             #include "Includes/lil_pipeline_urp.hlsl"
             #include "Includes/lil_common.hlsl"
             // Insert functions and includes that depend on Unity here
-            CBUFFER_START(LavaVanish) float _VanishClipY; CBUFFER_END
 
             #define LIL_FEATURE_MetallicGlossMap
             #include "Includes/lil_lava_pass_forward.hlsl"
@@ -888,7 +887,6 @@ Shader "Hidden/ltspass_lava"
             #include "Includes/lil_pipeline_urp.hlsl"
             #include "Includes/lil_common.hlsl"
             // Insert functions and includes that depend on Unity here
-            CBUFFER_START(LavaVanish) float _VanishClipY; CBUFFER_END
 
             #define LIL_FEATURE_MetallicGlossMap
             #include "Includes/lil_lava_pass_forward.hlsl"
@@ -1307,7 +1305,6 @@ Shader "Hidden/ltspass_lava"
             #include "Includes/lil_pipeline_urp.hlsl"
             #include "Includes/lil_common.hlsl"
             // Insert functions and includes that depend on Unity here
-            CBUFFER_START(LavaVanish) float _VanishClipY; CBUFFER_END
 
             #define LIL_FEATURE_MetallicGlossMap
             #include "Includes/lil_lava_pass_forward.hlsl"
@@ -1375,7 +1372,6 @@ Shader "Hidden/ltspass_lava"
             #include "Includes/lil_pipeline_urp.hlsl"
             #include "Includes/lil_common.hlsl"
             // Insert functions and includes that depend on Unity here
-            CBUFFER_START(LavaVanish) float _VanishClipY; CBUFFER_END
 
             #define LIL_FEATURE_MetallicGlossMap
             #include "Includes/lil_lava_pass_forward.hlsl"
