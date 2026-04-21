@@ -109,8 +109,6 @@
 #include "lil_common_vert.hlsl"
 #include "lil_common_frag.hlsl"
 
-// Lava: world-space Y dissolve clip global
-float _VanishClipY;
 float4 frag(v2f input LIL_VFACE(facing)) : SV_Target
 {
     //------------------------------------------------------------------------------------------------------------------------------

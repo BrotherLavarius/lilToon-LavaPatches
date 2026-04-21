@@ -17,6 +17,7 @@ Shader "lilToon/Lava Metallic"
         //----------------------------------------------------------------------------------------------------------------------
         // Base
         [lilToggle]     _Invisible                  ("sInvisible", Int) = 0
+        [HideInInspector] _VanishClipY ("Vanish Clip Y (Lava)", Float) = 9999
                         _AsUnlit                    ("sAsUnlit", Range(0, 1)) = 0
                         _Cutoff                     ("sCutoff", Range(-0.001,1.001)) = 0.5
                         _SubpassCutoff              ("sSubpassCutoff", Range(0,1)) = 0.5
